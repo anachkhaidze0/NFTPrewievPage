@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+#main-div{
+    height: 666px;
+}
+
+#inner-div{
+    background-color: hsl(216, 50%, 16%);
+}
+
+#main-p{
+    color: hsl(215, 51%, 70%)
+}
+
+#eth{
+    color: hsl(178, 100%, 50%);
+}
+
+#line{
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+#creation{
+    color: hsl(215, 51%, 70%)
+}
+
+#main-text:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+#creator-p:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+#main-img:hover{
+    opacity: 0.7;
+}
+
+#main-img:hover + #secondary-img{
+    display: block;
+}
