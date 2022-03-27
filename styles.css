@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 body{
-/*     background-color: hsl(217, 54%, 11%); */
-    
-    background-color: red;
+    background-color: hsl(217, 54%, 11%);
     font-family: 'Outfit', sans-serif;
 }
 
 .main-div{
-   width: 223rem;
+   height: 100vh;
+   width: 22rem;
 }
 
 .inner-div{
